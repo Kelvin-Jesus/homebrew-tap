@@ -1,28 +1,28 @@
 class Mailghost < Formula
   desc "Friendly disposable Mail.tm inbox for your terminal"
   homepage "https://github.com/Kelvin-Jesus/mailghost"
-  version "1.1.1"
+  version "1.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.1/mailghost-v1.1.1-macos-aarch64.tar.gz"
-      sha256 "fac3b23ac6f52859b94905ccc5a31a46e6acd811e869b9d29f32f4a6c96e40e2"
+      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.2/mailghost-v1.1.2-macos-aarch64.tar.gz"
+      sha256 "bd807a116d41fd0022329e2de24c7002d70aa1d4aba21154289c01746393c99d"
     end
     on_intel do
-      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.1/mailghost-v1.1.1-macos-x86_64.tar.gz"
-      sha256 "92f27dcb4739947fcf1b215c140d761131873c695eac580bdc3f2819171dd4b9"
+      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.2/mailghost-v1.1.2-macos-x86_64.tar.gz"
+      sha256 "b98d7ee26aa90e61f58160b8b48ef12195e92a0c70201b810b166aefe15e91e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.1/mailghost-v1.1.1-linux-aarch64.tar.gz"
-      sha256 "b837e3056d3a866c387c23ef239cc60f3a59bda401abae5c04d252fec3a027be"
+      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.2/mailghost-v1.1.2-linux-aarch64.tar.gz"
+      sha256 "f8262352f412cf74e8563a1055a652af29b20b646d8ad9d3d2a43bf36938185d"
     end
     on_intel do
-      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.1/mailghost-v1.1.1-linux-x86_64.tar.gz"
-      sha256 "60ed07e7867fbeb6adbee5bf0c9f1974b38ced615c586a6d84d1e09e7ed46196"
+      url "https://github.com/Kelvin-Jesus/mailghost/releases/download/v1.1.2/mailghost-v1.1.2-linux-x86_64.tar.gz"
+      sha256 "0bdf73f840c74ca4f9d5b8db50cd7b0506e0f637d200abaf49121ad5cb4b8951"
     end
   end
 
